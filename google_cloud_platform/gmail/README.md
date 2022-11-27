@@ -28,6 +28,9 @@ CREDENTIAL_FILE_PATH='path/to/your/client_secret.json'
 
 ## Repeatedly search mails and remove a specified number of times.
 
+```bash
+python batch_delete_messages.py 'category:promotions after:2021/11/1 before:2022/5/7' 10000
+```
 
 
 
