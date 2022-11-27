@@ -1,1 +1,5 @@
 .idea/*
+token.json
+.env
+client_secret*.json
+*.pyc
