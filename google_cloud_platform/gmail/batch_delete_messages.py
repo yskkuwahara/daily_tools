@@ -18,7 +18,7 @@ def main(query='is:unread', count=100):
             break
 
         messages = message.get_messages(service, 'me', query, count, pageToken=messages['nextPageToken'])
-        pprint.pprint('delete next: ' + len(messages['messages']))
+        pprint.pprint('delete next: ' + str(len(messages['messages'])))
 
 
 # python batch_delete_messages.py 'category:promotions after:2021/11/1 before:2022/5/7' 10000
