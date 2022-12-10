@@ -26,12 +26,12 @@ CREDENTIAL_FILE_PATH='path/to/your/client_secret.json'
 
 
 
-## Repeatedly search mails and remove a specified number of times.
+## Repeatedly search specified size of mails in each batch.
 
 ```bash
 # python batch_delete_messages.py {Gmal query string} {batching size}
 
-$ python batch_delete_messages.py 'category:promotion after:2022/3/1 before:2022/9/2' 100
+$ python batch_delete_messages.py 'category:promotions after:2022/3/1 before:2022/9/2' 100
 ```
 
 
@@ -40,7 +40,7 @@ $ python batch_delete_messages.py 'category:promotion after:2022/3/1 before:2022
 ```bash
 # python delete_messages.py {Gmal query string} {limit}
 
-$ python delete_messages.py 'category:promotion' 1000
+$ python delete_messages.py 'category:promotions' 1000
 ```
 
 
